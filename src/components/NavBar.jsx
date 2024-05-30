@@ -3,7 +3,7 @@ import Logo from '../assets/Screenshot_from_2024-05-29_02-22-25-removebg-preview
 const NavBar = () => {
     return (
         <div>
-            <nav className="bg-blue-700 bg-blue-700 border-b border-indigo-500">
+            <nav className="bg-blue-700 border-b border-blue-500">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="flex h-20 items-center justify-between">
                         <div
