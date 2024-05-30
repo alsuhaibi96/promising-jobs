@@ -10,7 +10,7 @@ const Testimonials = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Finding the right job has never been easier</h3>
-                    <p className="my-4">I was amazed by how efficiently I could navigate through the Promising Jobs site. The platform's user-friendly interface and comprehensive job listings made it incredibly easy to find exactly what I was looking for.</p>
+                    <p className="my-4">I was amazed by how efficiently I could navigate through the Promising Jobs site. The platforms user-friendly interface and comprehensive job listings made it incredibly easy to find exactly what I was looking for.</p>
                     <p className="my-4">The integration of direct applications through the site streamlined the entire process, making job hunting less daunting and much more effective.</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -38,7 +38,7 @@ const Testimonials = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">User-friendly and effective</h3>
-                    <p className="my-4">Promising Jobs not only looks good but works well too. Its seamless interface and extensive job listings have made it my go-to for job searching. It's rare to find a site that combines great design with such powerful functionality.</p>
+                    <p className="my-4">Promising Jobs not only looks good but works well too. Its seamless interface and extensive job listings have made it my go-to for job searching. It is rare to find a site that combines great design with such powerful functionality.</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
                     <img className="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture" />
@@ -51,7 +51,7 @@ const Testimonials = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Finding the right job has never been easier</h3>
-                    <p className="my-4">I was amazed by how efficiently I could navigate through the Promising Jobs site. The platform's user-friendly interface and comprehensive job listings made it incredibly easy to find exactly what I was looking for.</p>
+                    <p className="my-4">I was amazed by how efficiently I could navigate through the Promising Jobs site. The platform user-friendly interface and comprehensive job listings made it incredibly easy to find exactly what I was looking for.</p>
                     <p className="my-4">The integration of direct applications through the site streamlined the entire process, making job hunting less daunting and much more effective.</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
