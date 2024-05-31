@@ -36,6 +36,12 @@ const NavBar = () => {
                                         className={activeClass}
                                     >Jobs</NavLink
                                     >
+
+                                    <NavLink
+                                        to="/contact"
+                                        className={activeClass}
+                                    >Contact us</NavLink
+                                    >
                                     <NavLink
                                         to="/add-job"
                                         className={activeClass}

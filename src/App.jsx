@@ -2,6 +2,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import HomePage from "./pages/HomePage";
 import JobsPage from "./pages/JobsPage";
 import JobPage ,{jobLoader} from "./pages/JobPage";
+import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 import MainLayout from "./layouts/Default";
 
@@ -11,6 +12,7 @@ createRoutesFromElements(
 <Route index element={<HomePage/>}/>
 <Route path="/jobs" element={<JobsPage/>}/>
 <Route path="/jobs/:id" loader={jobLoader} element={<JobPage/>}/>
+<Route path="/contact" element={<ContactPage/>}/>
 <Route path="*" element={<NotFound/>}/>
 
 </Route>
