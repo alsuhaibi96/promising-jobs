@@ -47,7 +47,7 @@ Create a jobs.json file in the project root directory with your initial data, fo
 }
 ```bash
 
-Install json-server globally if you haven't already:
+##Install json-server globally if you haven't already:
 ```bash
 npm install -g json-server
 ```bash
