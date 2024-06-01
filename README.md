@@ -33,7 +33,8 @@ Create a jobs.json file in the project root directory with your initial data, fo
 
 json example
 
-{
+
+    {
   "jobs": [
     {
       "id": "1",
