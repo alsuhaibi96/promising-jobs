@@ -9,7 +9,7 @@ Promising Jobs is an open-source React website that provides the UI and function
 - **Home Page**: A welcoming landing page with an eye-catching image.
 - **Jobs Page**: Browse through available job listings.
 - **Contact Us**: A page for website visitors to get in touch.
-- **Add Job Page**: Allows users to post new job listings.
+- **Add Job Page**: Allows users to post new job listing.
 
 ## Installation
 
@@ -18,20 +18,20 @@ To set up the project locally, follow these steps:
 ## 1. Clone the repository:
 
 
-   git clone https://github.com/your-username/promising-jobs.git
+   git clone https://github.com/alsuhaibi96/promising-jobs.git
    cd promising-jobs
 
     Install the dependencies:
 
 
 
-npm install
+    npm install
 
 ## Set up and run the JSON server on a different port:
 
 Create a jobs.json file in the project root directory with your initial data, for example:
 
-json
+json example
 
 {
   "jobs": [
@@ -56,29 +56,20 @@ json
 
 
 
-npm install -g json-server
+    npm install -g json-server
 
 Run the JSON server:
 
 
 
-json-server --watch jobs.json --port 5000
+    npm run server
 
 ## Start the React application:
 
 
-    npm start
+    npm run serve
 
     Open your browser and navigate to http://localhost:3000 to view the application.
-
-React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-    @vitejs/plugin-react uses Babel for Fast Refresh.
-    @vitejs/plugin-react-swc uses SWC for Fast Refresh.
 
 Contributing
 
