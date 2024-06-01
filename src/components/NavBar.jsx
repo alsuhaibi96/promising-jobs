@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     const activeClass = ({ isActive }) =>
-        isActive ? "bg-black text-white bg-yellow-500 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2" : "text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+        isActive ? "bg-black text-white bg-yellow-400 hover:bg-yellow-500 hover:text-white rounded-md px-3 py-2" : "text-white hover:bg-yellow-500 hover:text-white rounded-md px-3 py-2"
 
     return (
         <div>
