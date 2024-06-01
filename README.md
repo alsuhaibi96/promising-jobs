@@ -19,7 +19,8 @@ To set up the project locally, follow these steps:
 
 
    git clone https://github.com/alsuhaibi96/promising-jobs.git
-   cd promising-jobs
+
+cd promising-jobs
 
 ## Install the dependencies:
 
@@ -70,7 +71,7 @@ Run the JSON server:
 
     npm run dev
 
-    Open your browser and navigate to http://localhost:3000 to view the application.
+Open your browser and navigate to http://localhost:3000 to view the application.
 
 Contributing
 
