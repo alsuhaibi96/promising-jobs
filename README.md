@@ -1,3 +1,4 @@
+markdown
 
 # Promising Jobs
 
@@ -19,14 +20,19 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/promising-jobs.git
    cd promising-jobs
-2.Install the dependencies:
-```bash
+
+    Install the dependencies:
+
+    bash
+
 npm install
 
-3.Set up and run the JSON server on a different port:
+Set up and run the JSON server on a different port:
+
 Create a jobs.json file in the project root directory with your initial data, for example:
 
-   ```bash
+json
+
 {
   "jobs": [
     {
@@ -45,34 +51,40 @@ Create a jobs.json file in the project root directory with your initial data, fo
     }
   ]
 }
-```bash
 
-##Install json-server globally if you haven't already:
+Install json-server globally if you haven't already:
 
-```bash
+bash
+
 npm install -g json-server
-```bash
-
 
 Run the JSON server:
 
-```bash
+bash
+
 json-server --watch jobs.json --port 5000
-```bash
 
-4.Start the React application:
+Start the React application:
 
-```bash
-npm start
-```bash
+bash
 
-5.Open your browser and navigate to http://localhost:3000 to view the application.
+    npm start
 
-# React + Vite
+    Open your browser and navigate to http://localhost:3000 to view the application.
+
+React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    @vitejs/plugin-react uses Babel for Fast Refresh.
+    @vitejs/plugin-react-swc uses SWC for Fast Refresh.
+
+Contributing
+
+We welcome contributions to improve Promising Jobs. Please feel free to submit a pull request or open an issue with your suggestions.
+License
+
+This project is open source and available under the MIT License.
+Screenshot
