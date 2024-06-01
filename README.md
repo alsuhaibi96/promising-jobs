@@ -34,7 +34,7 @@ Create a jobs.json file in the project root directory with your initial data, fo
 json example
 
 
-    {
+`{
   "jobs": [
     {
       "id": "1",
@@ -51,7 +51,7 @@ json example
       }
     }
   ]
-}
+} `
 
 ## Install json-server globally if you haven't already:
 
