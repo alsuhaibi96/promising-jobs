@@ -13,7 +13,8 @@ import EditJobPage from "./pages/EditJobPage";
 const App = () => {
   //add new job
   const addJob = async (newJob) => {
-    await fetch('/api/jobs',
+    try {
+   const response= await fetch('/api/jobs',
       {
         method: 'POST',
         headers: {
@@ -21,6 +22,14 @@ const App = () => {
         },
         body: JSON.stringify(newJob),
       });
+       if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const result = await response.json();
+        console.log('Add response:', result);
+    } catch (error) {
+        console.error('Error adding job:', error);
+    }
     return;
   }
 
@@ -40,10 +49,15 @@ const App = () => {
 
   //delete job
   const deleteJob = async (id) => {
-    await fetch(`/api/jobs/${id}`,
+    const response= await fetch(`/api/jobs/${id}`,
       {
         method: 'DELETE',
       });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    const result = await response.json();
+        console.log('Delete response:', result);
     return;
   }
   const router = createBrowserRouter(
