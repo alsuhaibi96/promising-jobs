@@ -25,8 +25,7 @@ npm install
 
 3.Set up and run the JSON server on a different port:
 Create a jobs.json file in the project root directory with your initial data, for example:
-
-```bash
+   ```bash
 
 {
   "jobs": [
