@@ -21,7 +21,7 @@ To set up the project locally, follow these steps:
    git clone https://github.com/alsuhaibi96/promising-jobs.git
    cd promising-jobs
 
-    Install the dependencies:
+## Install the dependencies:
 
 
 
@@ -56,7 +56,7 @@ json example
 
 
 
-    npm install -g json-server
+    npm install json-server
 
 Run the JSON server:
 
@@ -67,7 +67,7 @@ Run the JSON server:
 ## Start the React application:
 
 
-    npm run serve
+    npm run dev
 
     Open your browser and navigate to http://localhost:3000 to view the application.
 
