@@ -25,8 +25,8 @@ npm install
 
 3.Set up and run the JSON server on a different port:
 Create a jobs.json file in the project root directory with your initial data, for example:
-   ```bash
 
+   ```bash
 {
   "jobs": [
     {
@@ -48,17 +48,20 @@ Create a jobs.json file in the project root directory with your initial data, fo
 ```bash
 
 ##Install json-server globally if you haven't already:
+
 ```bash
 npm install -g json-server
 ```bash
 
 
 Run the JSON server:
+
 ```bash
 json-server --watch jobs.json --port 5000
 ```bash
 
 4.Start the React application:
+
 ```bash
 npm start
 ```bash
